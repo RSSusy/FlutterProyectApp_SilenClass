@@ -471,16 +471,6 @@ class _HomePageState extends State<HomePage> {
                           ),
                         ],
                       ),
-                      // BORRAR PORQUE NO SE USA
-                      /*(isReady && !pressedUpload) ? StreamBuilder<List<BluetoothService>>(
-                        stream: device.services,
-                        initialData: const [],
-                        builder: (c, snapshot) {
-                          return Column(
-                            children: _buildServiceTiles(snapshot.data),
-                          );
-                        },
-                      ) : Container(),*/
                     ],
                   ),
                 ],
@@ -513,38 +503,6 @@ class _HomePageState extends State<HomePage> {
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      /*Text(
-                        'x:',
-                        style: const TextStyle(
-                          color: Colors.black,
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                      Text(
-                        'sin:',
-                        style: TextStyle(
-                          color: sinColor,
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                      Text(
-                        'cos:',
-                        style: TextStyle(
-                          color: cosColor,
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                      Text(
-                        'tan:',
-                        style: TextStyle(
-                          color: tanColor,
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),*/
                       const SizedBox(
                         height: 12,
                       ),
@@ -841,38 +799,6 @@ class SensorPageState extends State<SensorPage> {
                                     fontWeight: FontWeight.bold,
                                   ),
                                 ),
-                                /*Text(
-                                  'x: ${xValue.toStringAsFixed(1)}',
-                                  style: const TextStyle(
-                                    color: Colors.black,
-                                    fontSize: 18,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                                Text(
-                                  'sin: ${sinPoints.last.y.toStringAsFixed(2)}',
-                                  style: TextStyle(
-                                    color: sinColor,
-                                    fontSize: 18,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                                Text(
-                                  'cos: ${cosPoints.last.y.toStringAsFixed(2)}',
-                                  style: TextStyle(
-                                    color: cosColor,
-                                    fontSize: 18,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                                Text(
-                                  'tan: ${tanPoints.last.y.toStringAsFixed(2)}',
-                                  style: TextStyle(
-                                    color: tanColor,
-                                    fontSize: 18,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),*/
                                 const SizedBox(
                                   height: 12,
                                 ),
